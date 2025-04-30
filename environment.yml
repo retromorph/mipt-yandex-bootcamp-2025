@@ -1,0 +1,16 @@
+name: bootcamp
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.12
+  - jupyter
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+    - numpy
+    - scikit-learn
+    - pandas
+    - wordfreq
+    - pyahocorasick
